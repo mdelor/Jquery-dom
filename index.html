@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dom Removal/Replacement</title>
+
+    <link rel="stylesheet" href="styles.css">
+    <script src="jquery-3.6.1.js"></script>
+    <script src="dom.js" async></script>
+</head>
+
+<body>
+    <h1>Dom Removal / Replacement</h1>
+    <section class="removal">
+        <h2>Removal</h2>
+        <div class="flex">
+            <p>Supprimer les élements correspondants du DOM</p>
+            <button type="button" class="detach">detach</button>
+        </div>
+        <div id="detach">
+            Detach
+            <p class="yg">Boîte 0</p>
+            <p class="yg">Boîte 1</p>
+            <p class="yg">Boîte 2</p>
+        </div>
+        <div class="flex">
+            <p>Supprimer tout les noeuds enfants des élements correspondants du DOM</p>
+            <button type="button" class="empty">empty</button>
+        </div>
+        <div id="empty">
+            Empty
+            <p class="lb">Boîte 3</p>
+            <p class="lb">Boîte 4</p>
+            <p class="lb">Boîte 5</p>
+        </div>
+        <div class="flex">
+            <p>Supprimer les élements correspondants du DOM</p>
+            <!--Préciser la différence avec detach-->
+            <button type="button" class="remove">remove</button>
+        </div>
+        <div id="remove">
+            Remove
+            <p class="yg">Boîte 6</p>
+            <p class="yg">Boîte 7</p>
+            <p class="yg">Boîte 8</p>
+        </div>
+        <div class="flex">
+            <p>Supprimer les parents des éléments coresspondants du DOM, en laissant ces derniers à leur place.</p>
+            <button type="button" class="unwrap">unwrap</button>
+        </div>
+
+        <div id="unwrap">
+            Unwrap
+            <p class="lb">Boîte 9</p>
+            <p class="lb">Boîte 10</p>
+            <p class="lb">Boîte 11</p>
+        </div>
+    </section>
+    <section class="replacement">
+        <h2>Replacement</h2>
+        <div class="flex">
+            <p>Remplacer chaque élément cible par l'ensemble des éléments correspondants</p>
+            <button type="button" class="replaceAll">replaceAll</button>
+        </div>
+        <div id="replaceAll">
+            ReplaceAll
+            <p class="yg">Boîte 0</p>
+            <p class="yg">Boîte 1</p>
+            <p class="yg">Boîte 2</p>
+        </div>
+        <div class="flex">
+            <p>Remplacer chaque élement correspondant par le nouveau contenu fourni.</p>
+            <button type="button" class="replaceWith">replaceWith</button>
+        </div>
+        <div id="replaceWith">
+            ReplaceWith
+            <p class="lb">Boîte 3</p>
+            <p class="lb">Boîte 4</p>
+            <p class="lb">Boîte 5</p>
+        </div>
+    </section>
+
+
+
+</body>
+
+</html>

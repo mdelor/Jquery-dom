@@ -1,0 +1,54 @@
+body {
+    background-color: #2e2e2e;
+    color: orange;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex p {
+    background-color: lightgrey;
+    color:#000;
+}
+
+* {
+    border: 1px solid white;
+    margin: 25px auto;
+    padding: 10px;
+    text-align: center;
+}
+
+html {
+    border: none;
+    margin: 0;
+}
+
+main {
+    width: 80%;
+}
+
+div {
+    width: 50%;
+}
+
+h1, h2 {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+p {
+    width: fit-content;
+}
+
+.yg {
+    color:greenyellow;
+}
+
+.lb {
+    color: lightblue;
+}
+
+button {
+    font-weight: bold;
+}
